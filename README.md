@@ -19,8 +19,8 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 $ mka recoveryimage
 ```
 ## Credits
-2019 Astrako
-2020 Astrako, steadfasterX
+* 2019 Astrako
+* 2020 Astrako, steadfasterX
 
 ## Contact
 Telegram support group: https://t.me/sfX_Android
