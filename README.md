@@ -10,17 +10,16 @@ $ mkdir shrp ; cd shrp
 $ repo init --depth=1 -u git://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni.git -b android-9.0
 
 # Clone my local repo
-$ git clone https://github.com/samsungexynos7870/android_device_samsung_j5y17lte.git -b skyhawk device/samsung/j5y17lte
+$ git clone https://code.binbash.rocks:8443/MVA-VoLTE/android_device_samsung_j5y17lte.git -b android-9.0_shrp device/samsung/j5y17lte
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ mv device/samsung/j5y17lte/build_skyhawk.sh .
-$ . build_skyhawk.sh j5y17lte
+$ mka recoveryimage
 ```
 ## Credits
-2019 @Astrako
+2019-2020 Astrako
 
 ## Contact
-Telegram support group: https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A
+Telegram support group: https://t.me/sfX_Android
